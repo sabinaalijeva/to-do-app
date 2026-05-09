@@ -1,14 +1,21 @@
 {
-  "name": "${PROJECT_NAME}",
+  "name": "to-do-app",
   "version": "1.0.0",
+  "private": true,
   "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc"
   },
-  "dependencies": {},
   "devDependencies": {
-    "typescript": "^5.5.3"
+    "@playwright/test": "^1.59.1",
+    "typescript": "^5.9.3"
   },
-  "private": true
+  "dependencies": {
+    "@types/node": "^25.6.2",
+    "dotenv": "^17.4.2"
+  }
 }
